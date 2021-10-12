@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public bool isGameOver = false;
     public bool isReady = true;
     private float readyTime = 1f;
+    private static float percentPerTouch = 50f;
 
     public static GameManager I;
 
@@ -104,7 +105,7 @@ public class GameManager : MonoBehaviour
     }
     public void addFeverTrigger()
     {
-        feverTrigger += 5f;
+        feverTrigger += percentPerTouch;
     }
     public void retry()
     {

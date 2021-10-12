@@ -1266,6 +1266,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: cdc93349937ac45c4ba88b0f895bef33, type: 3}
   - {fileID: 21300000, guid: 150531540d11044a1be695906ffd17ee, type: 3}
   - {fileID: 21300000, guid: fc6cc3bb0005d44c397f978804db6f82, type: 3}
+  backgroundFever: {fileID: 21300000, guid: 3365ac9e424a94b598c45513873d11a0, type: 3}
+  backTreeFever: {fileID: 21300000, guid: a4f3a398fb9ad422bb572fff88a875f3, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
