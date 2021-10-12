@@ -454,3 +454,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8169.349096 seconds.
+  path: Assets/Images/deployment/android_etc
+  artifactKey: Guid(edc66b57a79e545719244e69fc2bae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_etc using Guid(edc66b57a79e545719244e69fc2bae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d15ee19c86b6c7baa6acdd5dc66f3aa') in 0.003820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 131.171803 seconds.
+  path: Assets/Images/deployment/android_icon
+  artifactKey: Guid(42389f871e90a4b3ea7ae3f8e09d02b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon using Guid(42389f871e90a4b3ea7ae3f8e09d02b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd816ee4963a3e061e0a94542354eccad') in 0.001655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.469476 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-hdpi
+  artifactKey: Guid(c9ff621ce4d484c038f30a2dbbaf5f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-hdpi using Guid(c9ff621ce4d484c038f30a2dbbaf5f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae33ee330042f46f9ad285d14b0c23bc') in 0.002120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.610804 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-xxxhdpi
+  artifactKey: Guid(23a26576591194ac3b8dc0b497d3d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-xxxhdpi using Guid(23a26576591194ac3b8dc0b497d3d73a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b31146a6a4fc7668836915b9075a05') in 0.001992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.157554 seconds.
+  path: Assets/Images/deployment/ipad12.9_screenshot 
+  artifactKey: Guid(536d64921b44843d796fb762c978b425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/ipad12.9_screenshot  using Guid(536d64921b44843d796fb762c978b425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a60b88df7256e7dae8e8d219bb2c08') in 0.001924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.409250 seconds.
+  path: Assets/Images/deployment/mipmap-hdpi
+  artifactKey: Guid(7187b01e7a5d6401bb44240319335251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/mipmap-hdpi using Guid(7187b01e7a5d6401bb44240319335251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4611a59935e4fff0c62883ef2cf4713a') in 0.001184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.143807 seconds.
+  path: Assets/Images/deployment/mipmap-xhdpi
+  artifactKey: Guid(2dffd52f88aff43e4b0a3e4dcef4e04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/mipmap-xhdpi using Guid(2dffd52f88aff43e4b0a3e4dcef4e04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a3cef0917177becb87b5940e9988b1') in 0.002036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.281453 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-hdpi/iclauncher.png
+  artifactKey: Guid(0780438e633ac4f0a9009c69ef009934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-hdpi/iclauncher.png using Guid(0780438e633ac4f0a9009c69ef009934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7717e1b76665b14822a3859d9cb75156') in 0.046281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.133827 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-xxxhdpi/iclauncher.png
+  artifactKey: Guid(0fbcf2e75d17b4623a752a2aac4b306a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-xxxhdpi/iclauncher.png using Guid(0fbcf2e75d17b4623a752a2aac4b306a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80994f25c361aa327720e6d3ef7cfaa7') in 0.026308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.099035 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-xxhdpi/iclauncher.png
+  artifactKey: Guid(61a457f7d5c8940569427e0297a347c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-xxhdpi/iclauncher.png using Guid(61a457f7d5c8940569427e0297a347c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a4f06373c873bdacff50bc7561da00') in 0.017215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.863470 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-mdpi/iclauncher.png
+  artifactKey: Guid(74015789d98794dd48cbfec10362dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-mdpi/iclauncher.png using Guid(74015789d98794dd48cbfec10362dba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c16b647ce5a312c69af68a114f73e5') in 0.018407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.146237 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-xhdpi/iclauncher.png
+  artifactKey: Guid(6048dd6917bb94a0582b3074d4ea9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-xhdpi/iclauncher.png using Guid(6048dd6917bb94a0582b3074d4ea9fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0258c21832da4457951d38eef9cdad6') in 0.027278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.881348 seconds.
+  path: Assets/Images/deployment/android_icon/mipmap-xhdpi
+  artifactKey: Guid(0558d179a812d4fa9827fddcde1c07c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/android_icon/mipmap-xhdpi using Guid(0558d179a812d4fa9827fddcde1c07c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c183af360973885c847fe5cd5a6867') in 0.001796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.930668 seconds.
+  path: Assets/Images/deployment/AppIcon.appiconset
+  artifactKey: Guid(3f0d893c117224a509cb6c86e0e014c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/AppIcon.appiconset using Guid(3f0d893c117224a509cb6c86e0e014c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55579b2242b4b311ab1c5fdcb00fe865') in 0.001334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.234576 seconds.
+  path: Assets/Images/deployment/AppIcon.appiconset/180.png
+  artifactKey: Guid(1287e3aa163e64a8cabc600e65d12121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/AppIcon.appiconset/180.png using Guid(1287e3aa163e64a8cabc600e65d12121) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbd4de69aa4ea13f2dd8dfd294b4fc3') in 0.017985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Images/deployment/AppIcon.appiconset/120.png
+  artifactKey: Guid(3608cfa0454fb4059889da31fb973ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/AppIcon.appiconset/120.png using Guid(3608cfa0454fb4059889da31fb973ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a14809aa40988d0c14e9ce2255fcbb') in 0.012270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.283848 seconds.
+  path: Assets/Images/deployment/AppIcon.appiconset/87.png
+  artifactKey: Guid(ace46c6ea1cad418e85afcdb66822002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/AppIcon.appiconset/87.png using Guid(ace46c6ea1cad418e85afcdb66822002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92213f527eb1c4c538469560f4984a3') in 0.011408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Images/deployment/AppIcon.appiconset/58.png
+  artifactKey: Guid(00005cd0c894f49dd8cac43335b35160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/AppIcon.appiconset/58.png using Guid(00005cd0c894f49dd8cac43335b35160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18ceb543ddaf569a9521641ae6e008d') in 0.015451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Images/deployment/AppIcon.appiconset/29.png
+  artifactKey: Guid(d6efe8d49798e473c86408fbbe7dcb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/deployment/AppIcon.appiconset/29.png using Guid(d6efe8d49798e473c86408fbbe7dcb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316cb49dd87013f052ddccababf967cb') in 0.015343 seconds 
