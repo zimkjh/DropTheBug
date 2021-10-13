@@ -10,7 +10,7 @@ public class BackGround : MonoBehaviour
     public Sprite backTreeFever;
     private int nowIdx = 0;
     private bool firstTime = true;
-    private static int changeTerm = 5;
+    private static int changeTerm = 50;
     private bool feverFirstTime = true;
     private int changeCheckScore = 0;
     void Update()

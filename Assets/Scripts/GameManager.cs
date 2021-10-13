@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     public bool isGameOver = false;
     public bool isReady = true;
     private float readyTime = 1f;
-    private static float percentPerTouch = 50f;
+    private static float percentPerTouch = 5f;
 
     public static GameManager I;
 
