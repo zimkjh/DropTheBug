@@ -6,16 +6,21 @@ public class BackGround : MonoBehaviour
 {
     public List<Sprite> backgroundImageList;
     public List<Sprite> backTreeImageList;
-    private int nowIdx = 0;
+    public int nowIdx = 0;
     private bool firstTime = true;
-    private static int changeTerm = 50;
+    private static int changeTerm = 10;// 50; TODO
     private int changeCheckScore = 0;
+    public static BackGround I;
+    private void Awake()
+    {
+        I = this;
+        nowIdx = 0;
+    }
     void Update()
     {
         int score = GameManager.I.getScore();
         if ((score - changeCheckScore) >= changeTerm && score > 0 && firstTime)
         {
-            Debug.Log("original " + nowIdx + " " + score + " " + changeTerm);
             GameObject.Find("background_temp").GetComponent<SpriteRenderer>().sprite = backgroundImageList[nowIdx];
             GameObject.Find("background_temp").GetComponent<SpriteRenderer>().color = new Color(1, 1, 1, 1);
             GameObject.Find("background").GetComponent<SpriteRenderer>().sprite = backgroundImageList[(nowIdx + 1) % 4];
