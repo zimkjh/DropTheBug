@@ -8,7 +8,7 @@ public class BackGround : MonoBehaviour
     public List<Sprite> backTreeImageList;
     public int nowIdx = 0;
     private bool firstTime = true;
-    private static int changeTerm = 10;// 50; TODO
+    private static int changeTerm = 50;
     private int changeCheckScore = 0;
     public static BackGround I;
     private void Awake()

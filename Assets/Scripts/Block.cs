@@ -23,14 +23,17 @@ public class Block : MonoBehaviour
         {
             if (Input.touchCount > 0 && !EventSystem.current.IsPointerOverGameObject())
             {
-                Touch touch = Input.GetTouch(0);
-                if (touch.phase == TouchPhase.Began && touch.position.x < (Screen.width / 2))
+                for (int i = 0; i < Mathf.Min(Input.touchCount, 2); i++)
                 {
-                    Touch(0);
-                }
-                else if (touch.phase == TouchPhase.Began && touch.position.x >= (Screen.width / 2))
-                {
-                    Touch(1);
+                    Touch touch = Input.GetTouch(i);
+                    if (touch.phase == TouchPhase.Began && touch.position.x < (Screen.width / 2))
+                    {
+                        Touch(0);
+                    }
+                    else if (touch.phase == TouchPhase.Began && touch.position.x >= (Screen.width / 2))
+                    {
+                        Touch(1);
+                    }
                 }
             }
             else if (!EventSystem.current.IsPointerOverGameObject())
@@ -74,7 +77,6 @@ public class Block : MonoBehaviour
             {
                 GameManager.I.GameOver();
             }
-            transform.position += new Vector3(0, 0, 1);
             BirdAnim.I.birdEating(touchPosition.ToString());
             if (GameManager.I.feverTime)
             {
