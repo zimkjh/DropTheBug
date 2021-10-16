@@ -107,3 +107,4 @@ MonoBehaviour:
   feverBugEatenList:
   - {fileID: 4340446693444760927, guid: 2e9ae6f3c2fcd47f99f260f882595490, type: 3}
   - {fileID: 4929568737414296144, guid: 23b89e2646bc04653a88e5554d1f715e, type: 3}
+  birdAudio: {fileID: 0}

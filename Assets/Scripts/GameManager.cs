@@ -24,9 +24,9 @@ public class GameManager : MonoBehaviour
     public bool isReady = true;
     private float readyTime = 1f;
     private static float percentPerTouch = 5f;
-
+    public AudioClip gameOverClip;
+    private AudioSource mainCameraAudio;
     public static GameManager I;
-
 
     private void Awake()
     {
@@ -113,6 +113,10 @@ public class GameManager : MonoBehaviour
     }
     public void GameOver()
     {
+        mainCameraAudio = GameObject.Find("Main Camera").GetComponent<AudioSource>();
+        mainCameraAudio.clip = gameOverClip;
+        mainCameraAudio.loop = false;
+        mainCameraAudio.Play();
         BirdAnim.I.gameOverBird();
         isGameOver = true;
         GameObject.Find("feverbar").GetComponent<Renderer>().enabled = false;

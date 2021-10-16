@@ -10,7 +10,7 @@ public class Block : MonoBehaviour
     public Sprite feverBugImage;
     public List<GameObject> bugEatenList;
     public List<GameObject> feverBugEatenList;
-    private SpriteRenderer spriteRenderer; 
+    private SpriteRenderer spriteRenderer;
     void Start()
     {
         type = Random.Range(0,2);
@@ -59,9 +59,10 @@ public class Block : MonoBehaviour
     }
     private void Touch(int touchPosition)
     {
+        SpawnerBlock.I.playBirdSound();
         if(transform.position.y < disappearZone)
         {
-            FindObjectOfType<SpawnerBlock>().newBlock();
+            SpawnerBlock.I.newBlock();
             if (GameManager.I.feverTime)
             {
                 GameManager.I.addScore(2);
