@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class LoadMainScene : MonoBehaviour
 {
-    private AudioSource audio;
+    private AudioSource selectAudio;
     private void Start()
     {
-        audio = gameObject.GetComponent<AudioSource>();
+        selectAudio = gameObject.GetComponent<AudioSource>();
     }
     public void LoadGame()
     {
         SceneManager.LoadScene("MainScene");
-        audio.Play();
+        selectAudio.Play();
     }
 }

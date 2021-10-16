@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
     public AudioClip gameOverClip;
     private AudioSource mainCameraAudio;
     public static GameManager I;
+    private AudioSource selectAudio;
 
     private void Awake()
     {
@@ -52,6 +53,7 @@ public class GameManager : MonoBehaviour
         isGameOver = false;
         isReady = true;
         readyTime = 1f;
+        selectAudio = gameObject.GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -109,6 +111,7 @@ public class GameManager : MonoBehaviour
     }
     public void retry()
     {
+        selectAudio.Play();
         SceneManager.LoadScene("MainScene");
     }
     public void GameOver()
