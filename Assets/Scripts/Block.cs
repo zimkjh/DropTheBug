@@ -23,17 +23,14 @@ public class Block : MonoBehaviour
         {
             if (Input.touchCount > 0 && !EventSystem.current.IsPointerOverGameObject())
             {
-                for (int i = 0; i < Mathf.Min(Input.touchCount, 2); i++)
+                Touch touch = Input.GetTouch(0);
+                if (touch.phase == TouchPhase.Began && touch.position.x < (Screen.width / 2))
                 {
-                    Touch touch = Input.GetTouch(i);
-                    if (touch.phase == TouchPhase.Began && touch.position.x < (Screen.width / 2))
-                    {
-                        Touch(0);
-                    }
-                    else if (touch.phase == TouchPhase.Began && touch.position.x >= (Screen.width / 2))
-                    {
-                        Touch(1);
-                    }
+                    Touch(0);
+                }
+                else if (touch.phase == TouchPhase.Began && touch.position.x >= (Screen.width / 2))
+                {
+                    Touch(1);
                 }
             }
             else if (!EventSystem.current.IsPointerOverGameObject())
